@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 from sklearn.datasets import load_iris # import dataset
-from sklearn.neighbors import KNeighborsClassifier #import algorithm
+from sklearn.neighbors import KNeighborsClassifier # import algorithm
 
 st.title("IRIS_FLOWER CLASSIFICATION")
 var = load_iris() # load the dataset into a variable
