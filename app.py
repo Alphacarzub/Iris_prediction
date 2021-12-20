@@ -29,4 +29,4 @@ y_pred = model.predict([[sepal_length,sepal_width,petal_length,petal_width]])
 
 #print the output
 out = ['Iris_setosa','Iris_versicolor','Iris_virginica']
-st.title(out[y_pred[0]]) # Prints which type of Iris flower according to inputs
+st.title(out[y_pred[0]]) #Prints which type of Iris flower according to inputs
